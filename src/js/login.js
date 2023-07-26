@@ -20,7 +20,7 @@ function validarLogin(e) {
     return
   }
 
-  localStorage.setItem("usuario_logado", JSON.stringify({login: userAuth.email, senha: userAuth.senha}))
+  localStorage.setItem("dados_usuario", JSON.stringify({login: userAuth.email, senha: userAuth.senha}))
 
   location.href = '/index.html'
 }
