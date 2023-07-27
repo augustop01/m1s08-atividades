@@ -1,4 +1,4 @@
-const dados = `
+let dados = `
   [
     {
       "email": "primeiro@email.com",
